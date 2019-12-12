@@ -15,7 +15,7 @@
 #
 # end
 
-
+require 'pry'
 class CashRegister
 
 
@@ -28,7 +28,7 @@ def initialize(discount = 20)
 end
 
 def add_item(title, price)
-
+  @total + price
 end
 
 
