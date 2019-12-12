@@ -19,7 +19,7 @@
 class CashRegister
 
 
-  attr_accessor :discount
+  attr_accessor :discount, :total
 # how to set an optional argument?
 # the discount argument needs to be returned how? with an attr_accessor
 def initialize(discount = 20)
