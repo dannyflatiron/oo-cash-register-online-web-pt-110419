@@ -29,6 +29,7 @@ end
 
 def add_item(title, price)
   @total = @total + price
+  # @total has to be altered to retain it for the remainder of the lab. A new variable wouldn't work because it only exists within the scope of the method it is in not for the entire class
   # @total
   # binding.pry
 end
