@@ -29,6 +29,7 @@ end
 
 def add_item(title, price)
   @total + price
+  binding.pry
 end
 
 
