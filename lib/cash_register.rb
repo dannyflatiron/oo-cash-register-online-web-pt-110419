@@ -28,9 +28,9 @@ def initialize(discount = 20)
 end
 
 def add_item(title, price)
-  new_total = @total + price
-  new_total
-  binding.pry
+  @total = @total + price
+  @total
+  # binding.pry
 end
 
 
