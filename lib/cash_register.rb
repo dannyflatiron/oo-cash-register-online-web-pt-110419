@@ -29,7 +29,7 @@ end
 
 def add_item(title, price)
   new_total = @total + price
-  new_total
+  new_total.to_i
   binding.pry
 end
 
